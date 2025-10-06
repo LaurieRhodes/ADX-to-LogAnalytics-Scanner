@@ -61,10 +61,15 @@ This solution architecture combines stateful and stateless functions to provide 
 
 ## Documentation
 
-**Architecture**: [docs/Architecture.md](docs/Architecture.md) - Software Architecture overview
-**Deployment Guide**: [docs/Guide - Deployment.md](docs/Guide - Deployment.md) - Deployment guide for this project 
-**Adding new Custom Table scanning**: [docs/Guide - Adding New Tables.md](docs/Guide - Adding New Tables.md) - Documentation for adding support for custom tables with scanning and data forwarding
-**Adding KQL Queries**: [docs/Guide - Configuring KQL Pipeline Queries.md](docs/Guide - Configuring KQL Pipeline Queries.md) - Guidance on how to add KQL queries for filtering and forwarding to Sentinel
+|                                       | Link                                                                                                 | Description                                                                          |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **Architecture**:                     | [docs/Architecture.md](docs/Architecture.md)                                                         | Software Architecture overview                                                       |
+| **Deployment Guide**:                 | [docs/Guide - Deployment.md](docs/Guide - Deployment.md)                                             | Deployment guide for this project                                                    |
+| **Adding new Custom Table scanning**: | [docs/Guide - Adding New Tables.md](docs/Guide - Adding New Tables.md)                               | Documentation for adding support for custom tables with scanning and data forwarding |
+| **Adding KQL Queries**:               | [docs/Guide - Configuring KQL Pipeline Queries.md](docs/Guide - Configuring KQL Pipeline Queries.md) | Guidance on how to add KQL queries for filtering and forwarding to Sentinel          |
+|                                       |                                                                                                      |                                                                                      |
+
+
 
 ## License
 
