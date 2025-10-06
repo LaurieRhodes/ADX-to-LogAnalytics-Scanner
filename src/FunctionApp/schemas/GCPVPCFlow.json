@@ -1,0 +1,433 @@
+﻿{
+    "Name":  "GCPVPCFlow",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "DestGkeClusterLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkePodWorkloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkePodWorkloadName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkePodNamespace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkePodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkeService",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SrcGkeClusterName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGkeClusterLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbVpc",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "LbBackendGroupLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGkeClusterName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbUrlMapName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbScheme",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbReporter",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbForwardingRuleProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbForwardingRuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbBackendGroupType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbBackendGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InternetRoutingDetailsEgressAsn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLocationRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLocationCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LbBackendServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGkeService",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DestGkePodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGkePodNamespace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayInterconnectName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayVpc",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DestGatewayType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayInterconnectProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayInterconnectName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayVpc",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SrcGatewayType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGatewayProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscEndpointVpc",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PscEndpointTargetServiceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscEndpointRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscEndpointConnectionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscEndpointProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscAttachmentVpc",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PscAttachmentRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PscAttachmentProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGkePodWorkloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGkePodWorkloadName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLocationCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGatewayInterconnectProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLocationContinent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestLocationRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubnetworkName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubnetworkId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceVmName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Rttmsec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Reporter",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PacketsSent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BytesSent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Location",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceGroupZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestLocationCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestLocationCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestLocationContinent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestLocationAsn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGoogleServiceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestGoogleServiceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcVpcName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcVpcSubnetworkRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcVpcSubnetworkName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcVpcProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceGroupRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceGroupZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceVmName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInstanceProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkServiceDscp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestVpcName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestVpcSubnetworkRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestVpcSubnetworkName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestVpcProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestInstanceGroupRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLocationAsn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

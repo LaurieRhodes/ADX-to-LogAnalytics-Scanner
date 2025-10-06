@@ -1,0 +1,101 @@
+﻿{
+    "Name":  "GKEControllerManager",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Duration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Key",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Kind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Logger",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComputeResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Location",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClusterName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceLine",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceFile",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Pid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Message",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SyncStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,97 @@
+﻿{
+    "Name":  "UCDeviceAlert",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "URL",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorSymName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Recommendation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertClassification",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResolvedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AlertRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AlertSubtype",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SCCMClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

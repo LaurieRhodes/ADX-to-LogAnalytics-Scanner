@@ -1,0 +1,97 @@
+﻿{
+    "Name":  "UCClientReadinessStatus",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SetupReadinessTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SetupReadinessReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SetupReadinessStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReadinessExpiryTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ReadinessScanTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ReadinessReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReadinessStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetOSBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SetupReadinessExpiryTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TargetOSVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SCCMClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetOSName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

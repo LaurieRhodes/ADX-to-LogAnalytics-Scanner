@@ -1,0 +1,61 @@
+﻿{
+    "Name":  "UCDOAggregatedStatus",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCount",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "ContentType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BytesFromCDN",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromIntPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromGroupPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromCache",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BWOptPercent28Days",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

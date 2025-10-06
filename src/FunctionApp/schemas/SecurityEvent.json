@@ -1,0 +1,941 @@
+﻿{
+    "Name":  "SecurityEvent",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "PrimaryGroupId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrivateKeyUsageCount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrivilegeList",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Process",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProcessId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Properties",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProfilePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProtocolSequence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProxyPolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QuarantineHelpURL",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QuarantineSessionID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QuarantineSessionIdentifier",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QuarantineState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QuarantineSystemHealthResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RelativeTargetName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteIpAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemotePort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Requester",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RestrictedAdminMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RowsDeleted",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SamAccountName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ScriptPath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SecurityDescriptor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PreviousTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceAccount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PreviousDate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PasswordLastSet",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewDate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewMaxUsers",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewProcessId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewRemark",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewShareFlags",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewUacValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewValueType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ObjectName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ObjectServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ObjectType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ObjectValueName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OemInformation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldMaxUsers",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldRemark",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldShareFlags",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldUacValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldValueType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PackageName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ParentProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PasswordHistoryLength",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PasswordProperties",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkPolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceFileName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceStartType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TargetUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateContent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateDSObjectFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateInternalName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateOID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateSchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TemplateVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TokenElevationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TransmittedServices",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAccountControl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserParameters",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserPrincipalName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserWorkstations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VirtualAccount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VendorIds",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Workstation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WorkstationName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Version",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Opcode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Keywords",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Correlation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemProcessId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TargetSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetServerName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetOutboundDomainName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SessionName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ShareLocalPath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ShareName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SidHistory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectAccount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubcategoryGuid",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SubcategoryId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Subject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectDomainName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectKeyIdentifier",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectLogonId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectMachineName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectMachineSID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubjectUserSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TableId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetAccount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetDomainName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetLinkedLogonId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetLogonGuid",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "TargetLogonId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetOutboundUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemThreadId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NASPortType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NASIPv6Address",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalInfo2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AllowedToDelegateTo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Attributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuditPolicyChanges",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuditsDiscarded",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AuthenticationLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AuthenticationPackageName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationProvider",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationService",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AuthenticationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CACertificateHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CalledStationID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CallerProcessId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CallerProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CallingStationID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CAPublicKeyHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CategoryId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CertificateDatabaseHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClassId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClassName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientIPAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountSessionIdentifier",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CommandLine",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Account",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Computer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Channel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Task",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Level",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLevelName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventID",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Activity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceComputerId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "EventOriginId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MG",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "TimeCollected",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ManagementGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PartitionKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RowKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StorageAccount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureDeploymentID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureTableName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccessList",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccessMask",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccessReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountExpires",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NASPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CompatibleIds",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyLength",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LmPackageName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LocationInformation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LockoutDuration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LockoutObservationWindow",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LockoutThreshold",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LoggingResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogonGuid",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "LogonHours",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogonID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogonProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogonType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LogonTypeName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MachineAccountQuota",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MachineInventory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MachineLogon",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MandatoryLabel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MaxPasswordAge",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MemberName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MemberSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MinPasswordAge",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MinPasswordLength",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MixedDomainMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NASIdentifier",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NASIPv4Address",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IpPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DCDNSName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IpAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ImpersonationLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Disposition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DomainBehaviorVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DomainName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DomainPolicyChanged",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DomainSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EAPType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ElevatedToken",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorCode",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ExtendedQuarantineState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FailureReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilePathNoUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Filter",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ForceLogoff",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Fqbn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FullyQualifiedSubjectMachineName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FullyQualifiedSubjectUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupMembership",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HandleId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HardwareIds",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HomeDirectory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HomePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InterfaceUuid",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "EventRecordId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

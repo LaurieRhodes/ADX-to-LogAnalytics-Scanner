@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "name": "httpobj",
+      "type": "httpTrigger",
+      "direction": "in",
+      "authLevel": "function",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "name": "durableClient",
+      "type": "durableClient",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "run.ps1"
+}

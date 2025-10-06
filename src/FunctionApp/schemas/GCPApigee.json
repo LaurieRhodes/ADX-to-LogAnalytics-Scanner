@@ -1,0 +1,53 @@
+﻿{
+    "Name":  "GCPApigee",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Operation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ProtoPayload",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "GCPResource",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

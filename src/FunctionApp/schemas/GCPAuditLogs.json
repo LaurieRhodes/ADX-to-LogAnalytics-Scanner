@@ -1,0 +1,113 @@
+﻿{
+    "Name":  "GCPAuditLogs",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ServiceData",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ResourceOriginalState",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ResourceLocation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Subscription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Response",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Request",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestMetadata",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AuthenticationInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "NumResponseItems",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Metadata",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

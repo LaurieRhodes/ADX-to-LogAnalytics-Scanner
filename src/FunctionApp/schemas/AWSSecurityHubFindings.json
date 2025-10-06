@@ -1,0 +1,133 @@
+﻿{
+    "Name":  "AWSSecurityHubFindings",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "WorkflowState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RecordState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Resources",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Remediation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingSeverity",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingProductFields",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingProductName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingProductArn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingGeneratorId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingProcessedAt",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingLastObservedAt",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingUpdatedAt",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingFirstObservedAt",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingCreatedAt",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingTypes",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsSecurityFindingTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComplianceAssociatedStandards",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ComplianceRelatedRequirements",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ComplianceSecurityControlParameters",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ComplianceSecurityControlId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComplianceStatusReasons",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ComplianceStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsAccountId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AwsRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RawData",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

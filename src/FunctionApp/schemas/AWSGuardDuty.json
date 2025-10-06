@@ -1,0 +1,73 @@
+﻿{
+    "Name":  "AWSGuardDuty",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Region",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Partition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Id",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Arn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActivityType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceDetails",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ServiceDetails",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TimeCreated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Title",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,137 @@
+﻿{
+    "Name":  "CrowdStrikeIncidents",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Techniques",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Tags",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Tactics",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "State",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Start",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Objectives",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Name",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ModifiedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LmraHostsCapped",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "LmraHostIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "LmTypes",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LmHostsCapped",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Users",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "LmHostIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "IncidentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Hosts",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "HostIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "GroupingIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "FineScore",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EventsHistogram",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "End",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EmailState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Created",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Cid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedToName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedTo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IncidentType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

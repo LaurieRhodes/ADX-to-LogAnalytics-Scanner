@@ -1,0 +1,109 @@
+﻿{
+    "Name":  "WindowsEvent",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "EventOriginId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventID",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RawEventData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventData",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Data",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "EventRecordId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemThreadId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SystemProcessId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Correlation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ManagementGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Keywords",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Version",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SystemUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLevelName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Task",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Computer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Channel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Provider",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Opcode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TimeCreated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

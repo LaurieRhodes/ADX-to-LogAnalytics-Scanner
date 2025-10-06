@@ -1,0 +1,173 @@
+﻿{
+    "Name":  "CrowdStrikeAlerts",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Scenario",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SecondsToResolved",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SecondsToTriaged",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SeverityName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ShowInUi",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SourceProducts",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Product",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceVendors",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Tactic",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TacticId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Tags",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Technique",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TechniqueId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "AlertType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Platform",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PatternId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Objective",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AgentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AggregateId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedToName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedToUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedToUuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Cid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CompositeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Confidence",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "CrawledTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "CreatedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DataDomains",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EmailSent",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "External",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Id",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Name",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdatedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

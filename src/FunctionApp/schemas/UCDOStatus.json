@@ -1,0 +1,141 @@
+﻿{
+    "Name":  "UCDOStatus",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "BWOptPercent28Days",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "BWOptPercent7Days",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "BytesFromCache",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromGroupPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromIntPeers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "BytesFromCDN",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "PeersCannotConnectCount",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "PeersSuccessCount",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "PeersUnknownCount",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "NoPeersCount",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "PeerEligibleTransfers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "TotalTransfers",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "TotalTimeForDownload",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ContentType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PeeringStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ISP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "City",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Country",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DOStatusDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ContentDownloadMode",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DownloadModeSrc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DownloadMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastCensusSeenTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

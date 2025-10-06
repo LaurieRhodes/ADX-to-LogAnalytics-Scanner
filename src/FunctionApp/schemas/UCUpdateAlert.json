@@ -1,0 +1,141 @@
+﻿{
+    "Name":  "UCUpdateAlert",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "UpdateId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResolvedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "URL",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorSymName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Recommendation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateClassification",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientSubstateRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ClientSubstate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceSubstateRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ServiceSubstate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertClassification",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AlertStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertSubtype",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SCCMClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CatalogId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,53 @@
+﻿{
+    "Name":  "GCPComputeEngine",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Operation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ProtoPayload",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "GCPResource",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

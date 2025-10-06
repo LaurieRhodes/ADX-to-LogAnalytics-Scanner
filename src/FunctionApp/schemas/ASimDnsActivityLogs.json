@@ -1,0 +1,553 @@
+﻿{
+    "Name":  "ASimDnsActivityLogs",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "EventProductVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOwner",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsResponseIpRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsResponseIpCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Dvc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventReportUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EventStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatLastReportedTime_d",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatLastReportedTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatFirstReportedTime_d",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatFirstReportedTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatIsActive",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ThreatOriginalRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatOriginalRiskLevel_s",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatOriginalConfidence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatConfidence",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UrlCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Src",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsFlagsTruncated",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsFlagsRecursionAvailable",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsFlagsCheckingDisabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsFlags",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDeviceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatField",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Dst",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcProcessId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcOriginalUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUsernameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUsername",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcDeviceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcProcessGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserSessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsQueryType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DnsQuery",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DstGeoLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DstGeoCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcGeoLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcGeoCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DnsQueryTypeName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOsVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProduct",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResultDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSubType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventCount",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "AdditionalFields",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DnsFlagsZ",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsResponseCode",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TransactionIdHex",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcOriginalRiskLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsSessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsFlagsRecursionDesired",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsFlagsAuthoritative",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsFlagsAuthenticated",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DnsNetworkDuration",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DnsQueryClassName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsQueryClass",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NetworkProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsResponseIpLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DnsResponseIpCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RuleNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkProtocolVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOriginalAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DstOriginalRiskLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsResponseIpLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

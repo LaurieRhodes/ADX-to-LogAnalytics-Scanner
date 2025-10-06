@@ -1,0 +1,153 @@
+﻿{
+    "Name":  "IlumioInsights",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "VEScore",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DestIsWellKnown",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "FlowCount",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "CvssSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestThreatLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIsWellKnown",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcLabel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Proto",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TotalSentBytes",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "UniqueId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Name",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureResourceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceInternalId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IllumioTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceSubId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcThreatLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IllumioUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Service",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Port",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DestLabel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TotalReceivedBytes",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DestCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceVnetId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

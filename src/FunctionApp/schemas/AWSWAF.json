@@ -1,0 +1,141 @@
+﻿{
+    "Name":  "AWSWAF",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Uri",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TerminatingRuleType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TerminatingRuleMatchDetails",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "TerminatingRuleId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TerminatingRule",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RuleGroupList",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RuleGroupId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseCodeSent",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RequestId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestHeadersInserted",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RateBasedRuleList",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "OversizeFields",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "NonTerminatingMatchingRules",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Ja3Fingerprint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpSourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpSourceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequest",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "HttpMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Headers",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "FormatVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ExcludedRules",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Country",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ChallengeResponse",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "CaptchaResponse",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Args",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Action",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WebAclId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,149 @@
+﻿{
+    "Name":  "Anomalies",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ExtendedProperties",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Entities",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AnomalyReasons",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "UserInsights",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DeviceInsights",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ActivityInsights",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DestinationDevice",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationLocation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DestinationIpAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceDevice",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceLocation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SourceIpAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserPrincipalName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Techniques",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Tactics",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ExtendedLinks",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Id",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WorkspaceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VendorName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AnomalyTemplateId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AnomalyTemplateName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AnomalyTemplateVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AnomalyDetails",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RuleId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RuleConfigVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Score",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "Description",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RuleStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

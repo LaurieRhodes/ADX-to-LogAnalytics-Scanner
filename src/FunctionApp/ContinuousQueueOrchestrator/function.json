@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "context",
+      "type": "orchestrationTrigger", 
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "run.ps1",
+  "entryPoint": "",
+  "disabled": false
+}

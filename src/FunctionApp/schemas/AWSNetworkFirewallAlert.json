@@ -1,0 +1,117 @@
+﻿{
+    "Name":  "AWSNetworkFirewallAlert",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Direction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PktSrc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Version",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Sni",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VerdictAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Proto",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlowId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Category",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Signature",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Rev",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SignatureId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AppProto",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TxId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AvailabilityZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirewallName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

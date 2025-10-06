@@ -1,0 +1,393 @@
+﻿{
+    "Name":  "DnsAuditEvents",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "RecursionScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RDATA",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PropertyKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PropagationTime",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ProcessingOrder",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Policy",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ParentHasSecureDelegation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldPropertyValues",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NSec3UserSalt",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NSec3RandomSaltLength",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NSec3OptOut",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NSec3Iterations",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NSec3HashAlgorithm",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NodeName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NextRolloverTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "NextRolloverAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NextKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewPropertyValues",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReplicationScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RolloverPeriod",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RolloverType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ScavengeServers",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ZoneSignatureValidityPeriod",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ZoneScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ZoneName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ZoneFile",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Zone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WithWithout",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WithNewKeys",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VirtualizationID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TTL",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NameServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubTreeAging",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StandbyKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Source",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SignatureInceptionOffset",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Setting",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServerName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SeizedOrTransferred",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SecureDelegationPollingPeriod",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Scopes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Scope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StoreKeysInAD",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Name",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MasterServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LookupValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsQueryType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DnsQuery",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DnsKeySignatureValidityPeriod",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DnsKeyRecordSetTtl",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DistributeTrustAnchor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DigestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Digest",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DenialOfExistence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CurrentState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DSRecordGenerationAlgorithm",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CurrentRolloverStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Criteria",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Condition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientSubnetRecord",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientSubnetList",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ChildZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BufferSize",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Base64Data",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActiveKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Action",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CryptoAlgorithm",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalData",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DSRecordSetTtl",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EnableRfc5011KeyRollover",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ListenAddresses",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastRolloverTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "KskOrZsk",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyTag",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "KeyStorageProvider",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyOrZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyMasterServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DSSignatureValidityPeriod",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "KeyLength",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "IsKeyMasterServer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IsEnabled",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InitialRolloverOffset",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Forwarders",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventString",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KeyId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

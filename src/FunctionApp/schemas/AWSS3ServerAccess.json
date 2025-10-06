@@ -1,0 +1,121 @@
+﻿{
+    "Name":  "AWSS3ServerAccess",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "AccessPointARN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TLSVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HostHeader",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CipherSuite",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SignatureVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HostId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VersionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Referer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TurnAroundTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ACLRequired",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TotalTime",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "BytesSent",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ErrorCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpStatus",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RequestUri",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Key",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Operation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Requester",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Bucket",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BucketOwner",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ObjectSize",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

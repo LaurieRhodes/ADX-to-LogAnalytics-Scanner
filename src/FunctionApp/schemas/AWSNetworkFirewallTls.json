@@ -1,0 +1,69 @@
+﻿{
+    "Name":  "AWSNetworkFirewallTls",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "FirewallName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AvailabilityZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Sni",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LeafCertificateFingerprint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Action",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,133 @@
+﻿{
+    "Name":  "GKEHPADecision",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "TopLevelLimit",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetRefName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetRefKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetRefAPIVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Replicas",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LeadingMetricIndex",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "HPA",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConfiguredSize",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ActuationTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ActuationLatencySeconds",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "Zone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VMName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComputeResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Location",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClusterName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceLine",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceFile",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Message",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TopLevelOverride",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

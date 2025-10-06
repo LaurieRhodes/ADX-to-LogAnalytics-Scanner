@@ -1,0 +1,461 @@
+﻿{
+    "Name":  "GCPCloudSQL",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ResponseEphemeralCertKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseClientCert",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesRequestTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesRequestReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesDestinationAttributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseBackupContextBackupId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsUserbackuplable",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsTier",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsStorageAutoResize",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsSqlServerAuditConfigUploadInterval",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsSqlServerAuditConfigRetentionInterval",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsVersion",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsRetainBackupsOnDelete",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsMaintenanceWindow",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsLocationPreference",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsIPConfiguration",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsInsightsConfig",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsEnableGoogleMlIntegration",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsTmeZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsEdition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseBackupContextKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationInsertTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseOperation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseServerCaCert",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsDatabaseId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "StatusCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseBackupContextName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetProject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponsePromoteContextReplica",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponsePromoteContextPrimary",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseInstanceUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsDeletionProtectionEnabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsDataDiskType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsDataDiskSizeGb",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyCommonName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestSha1Fingerprint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestOperation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestResourceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMaxResults",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestInstance",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPageSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFilter",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFinalBackupTtlDays",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthInfoServiceAccountKeyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEnableFinalBackup",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodyDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyCloneContextDestinationInstanceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsdataCacheConfigDataCacheEnabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsConnectionPoolConfig",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsTransactionLogRetentionDays",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsBackupStartTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsBinaryLogEnabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsBackupLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsBackupPointInTimeRecoveryEnabled",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyProject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsBackupEnabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsRetentionUnit",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsRetentinedBackup",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsAvailabilityType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsActiveDirectoryConfig",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodySettingsActivationPolicy",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyExportContext",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestDatabase",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyInstance",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyRestoreInstanceSettingsRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyRestoreInstanceSettingsProject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyRestoreInstanceSettingsName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyRestoreInstanceSettingsInstanceUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyRotateServerCaContext",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestBodyNodeCount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyBackup",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBodyFailoverContext",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "RequestEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

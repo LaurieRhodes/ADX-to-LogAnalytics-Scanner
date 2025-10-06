@@ -1,0 +1,173 @@
+﻿{
+    "Name":  "UCClientUpdateStatus",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "UpdateDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetBuildNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TargetRevisionNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "TargetKBNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateConnectivityLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateManufacturer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IsUpdateHealthy",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "UpdateReleaseTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ClientSubstateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "OfferReceivedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RestartRequiredTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "UpdateInstalledTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "UpdateId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CatalogId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateClassification",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateSource",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SCCMClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientSubstate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientSubstateRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "FurthestClientSubstate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FurthestClientSubstateRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupL1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupRankL1",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupL2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupRankL2",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupL3",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateHealthGroupRankL3",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "IsHotpatchUpdate",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

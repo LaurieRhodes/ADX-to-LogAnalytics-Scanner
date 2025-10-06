@@ -1,0 +1,125 @@
+﻿{
+    "Name":  "AWSNetworkFirewallFlow",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Proto",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlowId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetFlowMaxttl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetFlowMinttl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetFlowAge",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetFlowEnd",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "NetFlowStart",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "NetFlowBytes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetFlowPkts",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AppProto",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Rst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Ecn",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Ack",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Psh",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Fin",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Syn",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TCPFlags",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AvailabilityZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirewallName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

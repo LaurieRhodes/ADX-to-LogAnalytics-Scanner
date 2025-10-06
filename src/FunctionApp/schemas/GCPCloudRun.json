@@ -1,0 +1,353 @@
+﻿{
+    "Name":  "GCPCloudRun",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataCreationTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataResourceVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataNameSpace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingMetadataAnnotations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingMetadataNameSpace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingMetadataName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingSpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestDomainMappingApiVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobMetadataAnnotations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobMetadataNameSpace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobMetadataName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobSpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataUID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataGeneration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadatalabels",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceMetadataAnnotations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsRevisionName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsConfigurationName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelslocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsJobName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestMetadataRequestAttributesReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestJobApiVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestBuildpackBuildEnableAutomaticUpdates",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestStorageSourceGeneration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestImageUri",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceServiceURL",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceReadyRevision",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceLatestRevision",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceTraffic",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceObservedGeneration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceStatusConditions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestBuildpackBuildBaseImage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadrequestMetadataCallerIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestResource",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseServiceMetadatalabels",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResourceLocationCurrentLocations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadrequestMetadatarequestAttributesTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "PayloadrequestMetadatarequestAttributesAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadrequestMetadataDestinationAttributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadrequestMetadatacallerSuppliedUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadMethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadAuthorizationInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PayloadAuthInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadAuthenticationInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestLabelSelector",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataResourceVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataGeneration",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataUID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataCreationTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataAnnotations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseNameSpace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestOptionsRequestedPolicyVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseMetadataName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseApiVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadAuthenticationInfoServiceAccountKeyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceSpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestServiceApiVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadResponseSpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

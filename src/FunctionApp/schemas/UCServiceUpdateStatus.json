@@ -1,0 +1,145 @@
+﻿{
+    "Name":  "UCServiceUpdateStatus",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "UpdateVersionTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "UpdateVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateProvider",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateRecommendedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DeploymentRevokeTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DeploymentApprovedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "PolicyCreatedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "CatalogId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PolicyId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceSubstateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ProjectedOfferReadyTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "UdpateIsSystemManifest",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OfferReadyTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TargetBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateManufacturer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateClassification",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentIsExpedited",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ServiceSubstateRank",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ServiceState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceSubstate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateReleaseTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

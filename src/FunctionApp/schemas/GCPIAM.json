@@ -1,0 +1,385 @@
+﻿{
+    "Name":  "GCPIAM",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "RequestRoleTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestRoleIncludedPermissions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataPermissionDeltaAddedPermissions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsRoleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsTopicId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestUpdateMaskPaths",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataPermissionDeltaRemovedPermissions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestRequestedTokenType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestView",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestKeyTypes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataMappedPrincipal",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestSubjectTokenType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestGrantType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestRoleDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestRoleId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseIncludedPermissions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestOptionsRequestedPolicyVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseKeyAlgorithm",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponsePrivateKeyType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseKeyOrigin",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseKeyType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseValidAfterTimeSeconds",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseValidBeforeTimeSeconds",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPrivateKeyType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseUniqueId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOauth2ClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestServiceAccountDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestServiceAccountDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestAccountId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseGroupTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPageToken",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestIncludeInactiveApiRoles",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestPageSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFullResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsService",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerSuppliedUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestSkipVisibilityCheck",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "AuthInfoServiceAccountDelegationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestRemoveDeletedServiceAccounts",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestShowDeleted",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NumResponseItems",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataPolicyDeltaBindingDeltas",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseEtag",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseBindings",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseAuditConfigs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestResource",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyBindings",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyEtag",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataIdentityDelegationChain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsEmailId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsUniqueId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestPolicyAuditConfigs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

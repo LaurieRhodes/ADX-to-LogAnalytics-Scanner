@@ -1,0 +1,66 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:10:00",
+  "extensions": {
+    "durableTask": {
+      "hubName": "ADXToLogAnalyticsHub",
+      "maxConcurrentActivityFunctions": 1,
+      "maxConcurrentOrchestratorFunctions": 1,
+      "storageProvider": {
+        "type": "azureStorage",
+        "maxQueuePollingInterval": "00:00:02"
+      },
+      "extendedSessionsEnabled": false,
+      "maxConcurrentOrchestratorInstanceCount": 1
+    }
+  },
+  "healthMonitor": {
+    "enabled": true,
+    "healthCheckInterval": "00:00:10",
+    "healthCheckWindow": "00:02:00",
+    "healthCheckThreshold": 6,
+    "counterThreshold": 0.80
+  },
+  "managedDependency": {
+    "enabled": true
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[3.15.0, 4.0.0)"
+  },
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "maxTelemetryItemsPerSecond": 10,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true,
+      "httpAutoCollectionOptions": {
+        "enableHttpTriggerExtendedInfoCollection": true,
+        "enableW3CDistributedTracing": true,
+        "enableResponseHeaderInjection": true
+      }
+    },
+    "logLevel": {
+      "default": "Information",
+      "Function": "Information",
+      "Function.TimerTriggerFunction": "Information",
+      "Function.HttpTriggerFunction": "Information",
+      "Function.ContinuousQueueOrchestrator": "Information",
+      "Function.ADXQueryActivity": "Information",
+      "Function.QueueManagerActivity": "Information",
+      "Host.Results": "Information",
+      "Host.Aggregator": "Trace",
+      "Microsoft.Azure.WebJobs.Extensions.Timers": "Information",
+      "Microsoft.Azure.WebJobs.Extensions.DurableTask": "Information",
+      "DurableTask.Core": "Information"
+    }
+  },
+  "retry": {
+    "strategy": "exponentialBackoff",
+    "maxRetryCount": 3,
+    "minimumInterval": "00:00:02",
+    "maximumInterval": "00:00:30"
+  }
+}

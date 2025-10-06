@@ -1,0 +1,449 @@
+﻿{
+    "Name":  "ASimUserManagementActivityLogs",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SrcGeoRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcGeoLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcGeoCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDeviceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupOriginalType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupNameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetOriginalUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserSessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUsernameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUsername",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ActingAppId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EventStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EventSchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSchema",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatLastReportedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatFirstReportedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatIsActive",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ThreatOriginalConfidence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatConfidence",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatField",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatOriginalRiskLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RuleNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "RuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NewPropertyValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PreviousPropertyValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActingOriginalAppType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActingAppType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActingAppName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcOriginalRiskLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResultDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUsernameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUsername",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProduct",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventCount",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EventSubType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorSessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorOriginalUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUserIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUserSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUserAadId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcScope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcScopeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalFields",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DvcInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOsVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventReportUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOwner",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProductVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalResultDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalSubType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOriginalAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

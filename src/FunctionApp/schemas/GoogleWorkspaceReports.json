@@ -1,0 +1,361 @@
+﻿{
+    "Name":  "GoogleWorkspaceReports",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "OwnerDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Owner",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OsProperty",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OriginatingAppId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OrganizerCalendarId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldVisibility",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldEventTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OwnerIsSharedDrive",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "NotificationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NotificationMessageId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NeqValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ModuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LoginType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LoginChallengeStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LoginChallengeMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastSyncAuditDate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IsSuspicious",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "NotificationMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IsSecondFactor",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OwnerIsTeamDrive",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Visibility",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAgentOriginal",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAadid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TeamDriveId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetUserDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TargetCalendarId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrimaryEvent",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SrcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceFolderId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SharedDriveId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SerialNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ScopeData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Scope",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RoleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Resource_Id",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RegisterPrivelege",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceFolderTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VisibilityChange",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IosVendorUID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IdApplicationName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DocTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DocId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationFolderTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationFolderId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CalendarId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Billable",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DocType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApplicationName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AppName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApiKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorProfileId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorIsCollaboratorAccount",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ActorEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ActorCallerType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApplicationEdition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IosVendorId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstUserUpn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GroupDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventTitle",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventStartTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResponseStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProduct",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestUserUpn",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventGuest",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventEndTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Etag",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcModelNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcModelName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcInterfaceGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

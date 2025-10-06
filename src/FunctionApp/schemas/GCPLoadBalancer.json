@@ -1,0 +1,121 @@
+﻿{
+    "Name":  "GCPLoadBalancer",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Zone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UrlMapName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ForwardingRuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BackendServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Latency",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SecurityPolicyRequestData",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PayloadRemoteIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PreviewEdgeSecurityPolicy",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "EnforcedEdgeSecurityPolicy",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PreviewSecurityPolicy",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "EnforcedSecurityPolicy",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "CacheDecision",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "BackendTargetProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

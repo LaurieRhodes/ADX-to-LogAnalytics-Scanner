@@ -1,0 +1,245 @@
+﻿{
+    "Name":  "UCClient",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "WUFeatureDeferralDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUQualityDeferralDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUQualityPauseState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WUFeatureDeadlineDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUQualityDeadlineDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUFeatureGracePeriodDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUQualityGracePeriodDays",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUDODownloadMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdateConnectivityLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WUFeaturePauseStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "WUFeaturePauseEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "WUQualityPauseStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "WUQualityPauseEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "WUAutomaticUpdates",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUDeadlineNoAutoRestart",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUNotificationLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUPauseUXDisabled",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUUXDisabled",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "WUServiceURLConfigured",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "WURestartNotification",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LastWUScanTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LastCensusScanTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "IsDeviceHotpatchEnrolled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "IsDeviceVBSEnabled",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "IsDeviceHotpatchEligible",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "WUFeaturePauseState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSFeatureUpdateEOSTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "OSQualityUpdateReleaseTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "OSFeatureUpdateReleaseTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "GlobalDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADTenantId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureADDeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SCCMClientId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceFamily",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceFormFactor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceManufacturer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceModel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Country",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "City",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrimaryDiskFreeCapacityMb",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LastHotpatchEnrolledTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "OSVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSBuildNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "OSRevisionNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "OSEdition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSArchitecture",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IsVirtual",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OSServicingChannel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSFeatureUpdateStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSQualityUpdateStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSSecurityUpdateStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSFeatureUpdateComplianceStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSSecurityUpdateComplianceStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSQualityUpdateComplianceStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OSBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

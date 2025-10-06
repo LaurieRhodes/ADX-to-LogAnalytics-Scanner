@@ -1,0 +1,117 @@
+﻿{
+    "Name":  "GCPNAT",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "DestinationRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "City",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Country",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ASN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EndpointZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EndpointRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NatPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NatIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AllocationStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GatewayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RouterId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Region",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Continent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

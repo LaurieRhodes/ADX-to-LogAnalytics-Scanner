@@ -1,0 +1,321 @@
+﻿{
+    "Name":  "GCPDNS",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SourceIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmZoneName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QueryName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthAnswer",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResponseCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmInstanceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmInstanceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Rdata",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QueryType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReqManZoneCloudLogConfigEnableLogging",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResManZoneCloudLogConfigEnableLogging",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResourceLabelsPolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceNetwork",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServerLatency",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseOperationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOpZoneContextOldValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneRrsetCount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseChangeAdditions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RespManZonePrivVisibConfigNetworks",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsZoneName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsTargetType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsTargetName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsSourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOpZoneContextNewValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VmInstanceIdString",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneVisibility",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestManagedZoneVisibility",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestManagedZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestManagedZoneName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestManagedZoneDnsName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestManagedZoneDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestChangeDeletions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestChangeAdditions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestAPIType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReqManZonePrivVisibConfigNetworks",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneNameServers",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneFingerprint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneDnsName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseManagedZoneCreationTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseChangeStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseChangeId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseChangeDeletions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReqmetaRequestAttributesTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ReqmetaCallerSuppliedUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseChangeStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,381 @@
+﻿{
+    "Name":  "CrowdStrikeHosts",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "PodId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodHostIp6",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodHostIp4",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodAnnotations",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PlatformName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PlatformId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Ou",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "OsVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OsProductName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OsBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Notes",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ModifiedTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MinorVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MigrationCompletedTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Meta",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ManagedApps",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "MajorVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MachineDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodIp4",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MacAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodIp6",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemProductName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SystemManufacturer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SiteName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceProviderAccountId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceProvider",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServicePackMinor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServicePackMajor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SerialNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RtrState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReleaseGroup",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReducedFunctionalityMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProvisionStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProductTypeDesc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProductType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Policies",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "PointerSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodServiceAccountName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodNamespace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PodLabels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "LocalIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LinuxSensorMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastSeen",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeploymentType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DefaultGatewayIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CpuVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CpuSignature",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConnectionMacAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConnectionIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConfigIdPlatform",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConfigIdBuild",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ConfigIdBase",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Cid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ChassisTypeDesc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ChassisType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BuildNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BiosVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BiosManufacturer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BaseImageVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AgentVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AgentLocalTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AgentLoadFlags",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DetectionSuppressionStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DevicePolicies",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Email",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastReboot",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastLoginUserSid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastLoginUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastLoginUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LastLoginTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "KernelVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "K8sClusterVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "K8sClusterId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "K8sClusterGitVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Tags",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "InternetExposure",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Hostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HostUtcOffset",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HostHiddenStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Groups",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "GroupHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirstSeen",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirstLoginTimestamp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilesystemContainmentStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ExternalIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InstanceId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

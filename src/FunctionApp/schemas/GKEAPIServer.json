@@ -1,0 +1,137 @@
+﻿{
+    "Name":  "GKEAPIServer",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ApfAdditionalLatency",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApfFSeats",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ApfISeats",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ApfFs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApfPl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseCode",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Labels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Message",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuditID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Latency",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "URI",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApfExecutionTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpVerb",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComputeResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Location",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ComponentLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ClusterName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceLine",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceFile",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Pid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

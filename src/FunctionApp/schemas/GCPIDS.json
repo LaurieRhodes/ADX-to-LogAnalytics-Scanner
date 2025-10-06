@@ -1,0 +1,293 @@
+﻿{
+    "Name":  "GCPIDS",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointNetwork",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointTrafficLogs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestEndpointThreatExceptions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataDestinationAttributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLocationCurrentLocations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseNetwork",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsResourceContainer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsService",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTrafficLogs",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResponseThreatExceptions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NumResponseItems",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TotalPackets",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TotalBytes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourcePort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RepeatCount",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Network",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationIPAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Application",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ElapsedTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestUpdateMaskPaths",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AlertTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "CVEs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Category",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceIPAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "URIOrFilename",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "JsonPayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "JsonPayloadName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Direction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Details",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IPProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

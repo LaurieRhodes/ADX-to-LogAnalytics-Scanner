@@ -1,0 +1,113 @@
+﻿{
+    "Name":  "CrowdStrikeDetections",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ShowInUi",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SecondsToTriaged",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SecondsToResolved",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "QuarantinedFiles",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "OverwatchNotes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MaxSeverityDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MaxSeverity",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "MaxConfidence",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "LastBehavior",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "HostInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirstBehaviorTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Device",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DetectionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DateUpdated",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CreatedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Cid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BehaviorsProcessed",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Behaviors",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "AssignedToUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AssignedToName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdversaryIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "EmailSent",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,445 @@
+﻿{
+    "Name":  "GCPCDN",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "HttpRequestRequestSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestRequestMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestRemoteIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestLatency",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestCacheLookup",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "Trace",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SpanID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResponseUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseSelfLinkWithID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseProgress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseInsertTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestRequestUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestResponseSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestCacheHit",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResourceLabelsUrlMapName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsTargetProxyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsForwardingRuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsBackendServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LoadBalancingScheme",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthzPolicyInfoResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthzPolicyInfoPolicies",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorBackendStatusDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ErrorService",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OverrideResponseCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EnforcedEdgeSecurityPolicyPriority",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EnforcedEdgeSecurityPolicyOutcome",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EnforcedEdgeSecurityPolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EnforcedEdgeSecurityPolicyConfiguredAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StatusDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CacheID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CacheDecision",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "BackendTargetProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "JsonPayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestServerIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "HttpRequestCacheFillBytes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLocationCurrentLocations",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestEnableCDN",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCompressionMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestSecurityPolicy",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestGroup",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestKeyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NumResponseItems",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsBackendBucketID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsBackendServiceID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LabelsAPIRootTriggerID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "InsertID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestIPAddressSelectionPolicy",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestLoadBalancingScheme",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestLocalityLbPolicy",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataDestinationAttributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerSuppliedUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestLogConfigSampleRate",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestLogConfigEnable",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestHealthChecks",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestConnectionDrainingTimeoutSec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyCacheKeyPolicyIncludeQueryString",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyCacheKeyPolicyIncludeProtocol",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyCacheKeyPolicyIncludeHost",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResourceLabelsZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyServeWhileStale",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyMaxTtl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyDefaultTtl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyClientTtl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyCacheMode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFingerprint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicySignedUrlCacheMaxAgeSec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestBackends",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestTimeoutSec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestSessionAffinity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPortName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCDNPolicyNegativeCaching",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

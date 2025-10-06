@@ -1,0 +1,93 @@
+﻿{
+    "Name":  "Event",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ManagementGroupName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TimeCollected",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "MG",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "RenderedDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventID",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EventData",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ParameterXml",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AzureDeploymentID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Message",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLevelName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EventCategory",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "Computer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventLog",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Source",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Role",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

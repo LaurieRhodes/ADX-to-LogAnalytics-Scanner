@@ -1,0 +1,145 @@
+﻿{
+    "Name":  "GCPFirewallLogs",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ResourceSubnetworkName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SubnetworkId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Disposition",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InstanceZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InstanceVmName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InstanceProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteLocationRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteLocationCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteLocationContinent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteLocationCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceRange",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Referance",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Priority",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IpPortInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Direction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Action",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VpcProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VpcName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VpcSubnetworkName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InstanceRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

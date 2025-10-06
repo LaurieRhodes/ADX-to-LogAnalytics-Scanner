@@ -1,0 +1,89 @@
+﻿{
+    "Name":  "AWSRoute53Resolver",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "FirewallRuleGroupId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FirewallRuleAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcIds",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Transport",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Answers",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "FirewallDomainListId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Rcode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QueryType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QueryName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "VpcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Region",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AccountId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Version",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "QueryClass",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

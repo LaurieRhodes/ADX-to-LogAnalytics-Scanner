@@ -1,0 +1,81 @@
+﻿{
+    "Name":  "CrowdStrikeVulnerabilities",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "HostInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Cve",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "App",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Confidence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SuppressionInfo",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Apps",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Remediation",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CreatedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DataProviders",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "VulnerabilityId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Aid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Cid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Id",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UpdatedTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

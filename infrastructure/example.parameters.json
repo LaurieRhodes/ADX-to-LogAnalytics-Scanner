@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "Location": {
+      "value": "Australia SouthEast"
+    },
+    "ResourceGroupID": {
+      "value": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}"
+    },
+    "FunctionAppName": {
+      "value": "adx-sentinel-scanner"
+    },
+    "StorageAccountName": {
+      "value": "adxscannersa001"
+    },
+    "ApplicationInsightsName": {
+      "value": "adx-sentinel-scanner-insights"
+    },
+    "UserAssignedIdentityResourceId": {
+      "value": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{identityName}"
+    },
+    "SentinelWorkspaceID": {
+      "value": "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}"
+    },
+    "ADXClusterURI": {
+      "value": "https://{cluster}.{region}.kusto.windows.net"
+    },
+    "ADXDatabase": {
+      "value": "SecurityLogs"
+    },
+    "QueryPackID": {
+      "value": ""
+    },
+    "EventHubResourceID": {
+      "value": ""
+    },
+    "ExistingAppServicePlanResourceId": {
+      "value": ""
+    }
+  }
+}

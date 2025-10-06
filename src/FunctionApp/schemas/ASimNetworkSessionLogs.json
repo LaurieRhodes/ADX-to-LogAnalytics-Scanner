@@ -1,0 +1,577 @@
+﻿{
+    "Name":  "ASimNetworkSessionLogs",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "SrcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventReportUrl",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalUid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalFields",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "DvcOsVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatRiskLevel",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatOriginalRiskLevel",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSubType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResultDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProduct",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventResult",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkRuleNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcDvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatOriginalConfidence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatLastReportedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ThreatFirstReportedTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "EventOriginalResultDetails",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkDuration",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatConfidence",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ThreatIsActive",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ThreatField",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "TcpFlagsSyn",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TcpFlagsUrg",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TcpFlagsRst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TcpFlagsPsh",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TcpFlagsFin",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "TcpFlagsAck",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "DstDeviceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDeviceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUsername",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUsernameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcOriginalUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstHostname",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDomainType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstFQDN",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstDvcIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NetworkRuleName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOutboundInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcInboundInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstInterfaceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkSessionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkPackets",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "SrcPackets",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "DstPackets",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "NetworkBytes",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "SrcBytes",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "DstBytes",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "NetworkConnectionHistory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkIcmpType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkIcmpCode",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "NetworkDirection",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkProtocolVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NetworkApplicationProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalSubType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventOriginalSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventCount",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EventSchemaVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DstInterfaceGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventEndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Dvc",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventProductVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcOriginalAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcSubscriptionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DvcMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstVlanId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstSubscriptionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcVlanId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcSubscriptionId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcMacAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcGeoLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "SrcAppId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcAppType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstNatIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstNatPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcNatIpAddr",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcNatPortNumber",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SrcAppName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInterfaceGuid",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoCity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstGeoLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DstGeoLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DstUserId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SrcInterfaceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstUserIdType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstUsernameType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstOriginalUserType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstAppName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstAppId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstAppType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DstUsername",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

@@ -1,0 +1,45 @@
+﻿{
+    "Name":  "GCPMonitoring",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "MetricLabels",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "MetricType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetricKind",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResource",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "ValueType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Points",
+                           "Type":  "Dynamic"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

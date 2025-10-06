@@ -1,0 +1,389 @@
+﻿{
+    "Name":  "GCPResourceManager",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "ResponseParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseCreateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseEtag",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseBindings",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseAuditConfigs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesReason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestMetadataRequestAttributesAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataDestinationAttributes",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerSuppliedUserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMetadataCallerIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestTagBindingParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestTagBindingTagValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestTagKeyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestTagValueName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFolderParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseUpdateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseLifecycleState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "ResourceLabelsService",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsFolderId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLabelsOrganizationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestFolderDisplayName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataPolicyDeltaBindingDeltas",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponsePolicySpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTagValueNamespacedName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTagValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTagKey",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseShortName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseNamespacedName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseLabels",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceDataType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectLabels",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectCreateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "MetadataParentDeltaSourceParentType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataParentDeltaSourceParentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataParentDeltaDestinationParentType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataParentDeltaDestinationParentId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MetadataType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Status",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoServiceAccountKeyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthenticationInfoPrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Timestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "NumResponseItems",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestResource",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCreateTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestProjectLifecycleState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectProjectNumber",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestOptionsRequestedPolicyVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicySpec",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyEtag",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyBindings",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPolicyAuditConfigs",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestConstraint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestUpdateMask",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestDestinationParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCustomConstraint",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestPageSize",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestListValue",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestParent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestLifecycleState",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestQuery",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

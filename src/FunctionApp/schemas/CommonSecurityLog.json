@@ -1,0 +1,645 @@
+﻿{
+    "Name":  "CommonSecurityLog",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint2",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint3",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint3Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint4",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint4Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber1",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "FieldDeviceCustomNumber1",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber2",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "FieldDeviceCustomNumber2",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber3",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "FieldDeviceCustomNumber3",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "DeviceCustomFloatingPoint1",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address4Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address4",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address3Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceTranslatedPort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SourceProcessId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SourceUserPrivileges",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourcePort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "SourceIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "StartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "DeviceCustomNumber3Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceUserID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventType",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DeviceEventCategory",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomIPv6Address3",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexString1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexString2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexString2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemoteIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RemotePort",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MaliciousIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatSeverity",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "FlexString1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "IndicatorThreatType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatConfidence",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReportReferenceLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MaliciousIPLongitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "MaliciousIPLatitude",
+                           "Type":  "Double"
+                       },
+                       {
+                           "Name":  "MaliciousIPCountry",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Computer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ThreatDescription",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceTranslatedAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexNumber2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexNumber1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString3",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString3Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString4",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString4Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString5",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomString5Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexNumber2",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DeviceCustomString6",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomDate1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomDate1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomDate2",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceCustomDate2Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexDate1",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexDate1Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FlexNumber1",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DeviceCustomString6Label",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SimplifiedDeviceAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceNTDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceNtDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceOutboundInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DevicePayloadId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceTranslatedAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationHostName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationMACAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationNTDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationProcessId",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DestinationUserPrivileges",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationProcessName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationPort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DestinationIP",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceTimeZone",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationUserID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceInboundInterface",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceFacility",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceExternalID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceDnsDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceVendor",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceProduct",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceVersion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceEventClassID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Activity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OriginalLogSeverity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationUserName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AdditionalExtensions",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ApplicationProtocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "EventCount",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "DestinationDnsDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationTranslatedAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DestinationTranslatedPort",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "CommunicationDirection",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceAction",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "DeviceMacAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFilePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFilePermission",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileSize",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "OldFileType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SentBytes",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "EventOutcome",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Protocol",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Reason",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestClientApplication",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestContext",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestCookies",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestMethod",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiptTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceHostName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceMACAddress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestURL",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceDnsDomain",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileModificationTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProcessID",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "EndTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ExternalID",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ExtID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileCreateTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileHash",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileID",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileModificationTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilePermission",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FileSize",
+                           "Type":  "Int"
+                       },
+                       {
+                           "Name":  "ReceivedBytes",
+                           "Type":  "Long"
+                       },
+                       {
+                           "Name":  "Message",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OldFileCreateTime",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "FilePath",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CollectorHostName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "_ResourceId",
+                           "Type":  "String"
+                       }
+                   ]
+}

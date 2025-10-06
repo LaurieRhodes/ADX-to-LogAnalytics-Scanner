@@ -1,0 +1,225 @@
+﻿{
+    "Name":  "GCPNATAudit",
+    "Properties":  [
+                       {
+                           "Name":  "TimeGenerated",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "TenantId",
+                           "Type":  "Guid"
+                       },
+                       {
+                           "Name":  "RequestSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseUser",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseTargetId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseStatus",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseProgress",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseStartTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseSelfLinkWithId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseInsertTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "ResponseTargetLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseSelfLink",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseOperationType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseErrorCode",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseErrors",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResponseErrorMessage",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceLocation",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationProducer",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationFirst",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "OperationLast",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "EncryptedInterconnectRouter",
+                           "Type":  "Boolean"
+                       },
+                       {
+                           "Name":  "RequestNetwork",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "InsertId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "LogName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ResourceRegion",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RouterId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ProjectId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Severity",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RootTriggerId",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ReceiveTimestamp",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "PayloadType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrincipalEmail",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PrincipalSubject",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "CallerIp",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "UserAgent",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestAttributeTime",
+                           "Type":  "DateTime"
+                       },
+                       {
+                           "Name":  "RequestAttributeAuth",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestAttributeDestination",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "ServiceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "MethodName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "AuthorizationInfo",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "GCPResourceName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestType",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "RequestName",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "PayloadRequestNats",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "SourceSystem",
+                           "Type":  "String"
+                       },
+                       {
+                           "Name":  "Type",
+                           "Type":  "String"
+                       }
+                   ]
+}

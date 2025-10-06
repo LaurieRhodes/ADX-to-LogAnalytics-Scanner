@@ -1,0 +1,24 @@
+# ADX to Log Analytics Scanner - Query Configuration
+# This file contains KQL queries for each table type
+# Each table can have multiple queries defined as a list
+
+Syslog:
+  - name: "Critical Severity Events Example"
+    description: "Syslog events with Critical severity level"
+    query: |
+      Syslog
+      | where SeverityLevel == "Critical" or SeverityLevel == "crit" or SeverityLevel == "0"
+
+OktaV2_CL:
+  - name: "Critical Severity Events Example"
+    description: "OktaV2 events with Critical severity level"
+    query: |
+      OktaV2_CL
+      | where OriginalSeverity == "Critical"
+
+GCP_DNS_CL:
+  - name: "Test Events"
+    description: "Simple test of functionality Example"
+    query: |
+      GCP_DNS_CL
+      | where payload_vmInstanceName_s == "TestMachine"
