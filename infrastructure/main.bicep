@@ -297,28 +297,6 @@ module dcrGoogleCloudSCC 'data-collection-rules/DCR-GoogleCloudSCC.bicep' = {
   }
 }
 
-module dcrDCRGCPDNSCL 'data-collection-rules/DCR-GCP_DNS_CL.bicep' = {
-  name: 'dcr-${sentinelWorkspaceName}-GCP_DNS'
-  params: {
-    location: Location
-    dataCollectionEndpointId: dataCollectionEndpoint.id
-    servicePrincipalObjectId: managedIdentity.properties.principalId
-    workspaceResourceId: SentinelWorkspaceID
-    workspaceName: sentinelWorkspaceName
-  }
-}
-
-module dcrOktaV2_CL 'data-collection-rules/dcr-OktaV2_CL.bicep' = {
-  name: 'dcr-${sentinelWorkspaceName}-OktaV2_CL'
-  params: {
-    location: Location
-    dataCollectionEndpointId: dataCollectionEndpoint.id
-    servicePrincipalObjectId: managedIdentity.properties.principalId
-    workspaceResourceId: SentinelWorkspaceID
-    workspaceName: sentinelWorkspaceName
-  }
-}
-
 module dcrSecurityEvent 'data-collection-rules/DCR-SecurityEvent.bicep' = {
   name: 'dcr-${sentinelWorkspaceName}-SecurityEvent'
   params: {
@@ -550,16 +528,8 @@ resource functionApp 'Microsoft.Web/sites@2020-12-01' = {
           value: dcrGCPAuditLogs.outputs.immutableId
         }
         {
-          name: 'DCRGCP_DNS_CL'
-          value: dcrDCRGCPDNSCL.outputs.immutableId
-        }
-        {
           name: 'DCRGoogleCloudSCC'
           value: dcrGoogleCloudSCC.outputs.immutableId
-        }
-        {
-          name: 'dcrOktaV2_CL'
-          value: dcrOktaV2_CL.outputs.immutableId
         }
         {
           name: 'DCRSecurityEvent'
