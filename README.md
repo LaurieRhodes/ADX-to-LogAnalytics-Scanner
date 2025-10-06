@@ -64,10 +64,40 @@ This solution architecture combines stateful and stateless functions to provide 
 
 ## Documentation
 
-- **Architecture**: [docs/Architecture.md](docs/Architecture.md) - Software Architecture overview
-- **Deployment Guide**: [docs/Guide - Deployment.md](docs/Guide%20-%20Deployment.md) - Deployment guide for this project 
-- **Adding New Tables**: [docs/Guide - Adding New Tables.md](docs/Guide%20-%20Adding%20New%20Tables.md) - Documentation for adding support for custom tables with scanning and data forwarding
-- **Configuring KQL Queries**: [docs/Guide - Configuring KQL Pipeline Queries.md](docs/Guide%20-%20Configuring%20KQL%20Pipeline%20Queries.md) - Guidance on how to add KQL queries for filtering and forwarding to Sentinel
+### Getting Started
+
+**New to this project?** Start here:
+
+1. [Architecture](docs/Architecture.md) - Understand the system design and components
+2. [Deployment Guide](docs/Guide%20-%20Deployment.md) - Deploy the solution to your environment
+3. [Configuring KQL Queries](docs/Guide%20-%20Configuring%20KQL%20Pipeline%20Queries.md) - Configure queries to filter and forward data
+
+### Core Documentation
+
+| Document                                                                                       | Description                                                                            |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Architecture](docs/Architecture.md)                                                           | Software architecture overview, component interaction, and design patterns             |
+| [Deployment Guide](docs/Guide%20-%20Deployment.md)                                             | Complete deployment guide with prerequisites, parameters, and production configuration |
+| [Configuring KQL Pipeline Queries](docs/Guide%20-%20Configuring%20KQL%20Pipeline%20Queries.md) | How to add and modify KQL queries for data filtering and forwarding                    |
+| [Adding New Tables](docs/Guide%20-%20Adding%20New%20Tables.md)                                 | Add support for custom tables with DCR creation and schema mapping                     |
+
+### Integration Guides
+
+| Document                                               | Description                                                         |
+| ------------------------------------------------------ | ------------------------------------------------------------------- |
+| [DCR Integration Guide](docs/DCR_Integration_Guide.md) | Data Collection Rules (DCR) integration details and troubleshooting |
+| [Event Hub Integration](docs/Event_Hub_Integration.md) | Configure Event Hub as alternate data destination                   |
+
+### Operations
+
+| Document                                   | Description                               |
+| ------------------------------------------ | ----------------------------------------- |
+| [Troubleshooting](docs/Troubleshooting.md) | Common issues, diagnostics, and solutions |
+
+### Additional Resources
+
+- [Infrastructure Parameters Reference](infrastructure/Parameters_Reference.md) - Detailed Bicep parameter documentation
+- [Query Configuration](src/FunctionApp/config/README.md) - YAML query configuration guide
 
 ## License
 
