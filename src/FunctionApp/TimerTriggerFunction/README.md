@@ -10,7 +10,7 @@ To change to production schedule:
 2. Redeploy the Function App code
 
 **Development (default)**: `0 0 9 * * *` - daily at 9 AM  
-**Production**: `0 */10 * * * *` - every 10 minutes
+**Production**: `0 0,10,20,30,40,50 * * * *` - every 10 minutes
 
 ## Example Files
 

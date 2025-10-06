@@ -110,12 +110,12 @@ try {
         }
         
         # OPTIMIZED: Reduced consecutive no tables threshold for faster response
-        if ($consecutiveNoTablesCount -ge $maxConsecutiveNoTables) {
-            Write-Debug "[$instanceId] GRACEFUL EXIT: No tables available for $maxConsecutiveNoTables consecutive cycles"
-            $gracefulExit = $true
-            $exitReason = "NoTablesAvailable"
-            break
-        }
+#        if ($consecutiveNoTablesCount -ge $maxConsecutiveNoTables) {
+#            Write-Debug "[$instanceId] GRACEFUL EXIT: No tables available for $maxConsecutiveNoTables consecutive cycles"
+#            $gracefulExit = $true
+#            $exitReason = "NoTablesAvailable"
+#            break
+#        }
         
         # Calculate remaining time for logging and decisions
         $timeRemainingMinutes = ($gracefulExitTime - $currentOrchestrationTime).TotalMinutes
@@ -232,10 +232,10 @@ try {
                     0
                 }
                 
-                Write-Information "[$instanceId] ✓ $tableToProcess : $($processResult.RecordsProcessed) records ($recordsPerSecond rec/s)"
+                Write-Information "[$instanceId] ? $tableToProcess : $($processResult.RecordsProcessed) records ($recordsPerSecond rec/s)"
             } else {
                 $failedProcesses++
-                Write-Warning "[$instanceId] ✗ $tableToProcess : Processing failed"
+                Write-Warning "[$instanceId] ? $tableToProcess : Processing failed"
             }
             
             # CRITICAL FIX: Update queue status after processing completes

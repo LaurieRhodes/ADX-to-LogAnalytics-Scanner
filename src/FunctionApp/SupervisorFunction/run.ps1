@@ -66,7 +66,7 @@ try {
         restartOnError = $true
         queuePollInterval = 5  # NEW: seconds between queue polls
         maxCycles = 1000       # NEW: safety limit
-        maxExecutionMinutes = 9.5  # OPTIMISED: Use 9.5 minutes for near real-time processing
+        maxExecutionMinutes = 9.92  # OPTIMIZED: 9 minutes 55 seconds for maximum processing time
     }
     
     if ($httpobj.Body) {
@@ -83,26 +83,6 @@ try {
 
     # Load the ADX permission testing function
     . "$PSScriptRoot\Test-ADXPermissions.ps1"
-
-    function Get-Next10MinuteBlockEnd {
-        param([DateTime]$CurrentTime)
-        
-        $utcNow = $CurrentTime.ToUniversalTime()
-        $minutesPastHour = $utcNow.Minute
-        $nextBlock = [Math]::Ceiling($minutesPastHour / 10.0) * 10
-        
-        if ($minutesPastHour % 10 -eq 0 -and $utcNow.Second -eq 0) {
-            $nextBlock = $minutesPastHour + 10
-        }
-        
-        if ($nextBlock -eq 60) {
-            $nextBlockTime = $utcNow.AddHours(1).AddMinutes(-$utcNow.Minute).AddSeconds(-$utcNow.Second).AddMilliseconds(-$utcNow.Millisecond)
-        } else {
-            $nextBlockTime = $utcNow.AddMinutes($nextBlock - $minutesPastHour).AddSeconds(-$utcNow.Second).AddMilliseconds(-$utcNow.Millisecond)
-        }
-        
-        return $nextBlockTime
-    }
 
     # Helper function to encode complex objects for Durable Functions
     function ConvertTo-Base64EncodedJson {
@@ -251,34 +231,23 @@ try {
         throw "FATAL: ADX configuration incomplete (missing ADXCLUSTERURI, ADXDATABASE, or CLIENTID)"
     }
 
-    # OPTIMIZED: Improved time boundary calculation for near real-time processing
+    # SIMPLIFIED: Calculate end time as current time + configured max execution minutes
+    # Since timer fires at 10-minute boundaries, we don't need complex block alignment
     $currentTime = Get-Date
     $currentTimeUtc = $currentTime.ToUniversalTime()
-    $blockEndTime = Get-Next10MinuteBlockEnd -CurrentTime $currentTime
+    $maxConfiguredMinutes = $config.maxExecutionMinutes  # 9.92 minutes (9m 55s)
+    $safetyBufferMinutes = 0.083  # OPTIMIZED: 5 seconds safety buffer
+    
+    # Calculate block end time as simple offset from now
+    $blockEndTime = $currentTimeUtc.AddMinutes($maxConfiguredMinutes)
     $blockEndTimeZulu = $blockEndTime.ToString('yyyy-MM-ddTHH:mm:ssZ')
+    $effectiveMaxMinutes = $maxConfiguredMinutes
     
-    # Calculate time until block end
-    $timeUntilBlockEnd = ($blockEndTime - $currentTimeUtc).TotalMinutes
-    
-    # OPTIMIZED: Reduced safety buffer for maximum processing time
-    $safetyBufferMinutes = 0.25  # REDUCED: 15 seconds safety buffer for near real-time
-    $maxConfiguredMinutes = $config.maxExecutionMinutes  # 9.5 minutes
-    $timeBasedMaxMinutes = [Math]::Max(1, $timeUntilBlockEnd - $safetyBufferMinutes)
-    $effectiveMaxMinutes = [Math]::Min($maxConfiguredMinutes, $timeBasedMaxMinutes)
-    
-    Write-Information "OPTIMIZED: Time Boundary Calculation for Near Real-Time Processing:"
+    Write-Information "SIMPLIFIED: Time Boundary Calculation:"
     Write-Information "  Current Time (UTC): $($currentTimeUtc.ToString('yyyy-MM-dd HH:mm:ss UTC'))"
     Write-Information "  Block End Time: $($blockEndTime.ToString('yyyy-MM-dd HH:mm:ss UTC'))"
-    Write-Information "  Time Until Block End: $([Math]::Round($timeUntilBlockEnd, 2)) minutes"
-    Write-Information "  Max Configured Minutes: $maxConfiguredMinutes"
-    Write-Information "  Time-Based Max Minutes: $([Math]::Round($timeBasedMaxMinutes, 2))"
     Write-Information "  Effective Max Minutes: $([Math]::Round($effectiveMaxMinutes, 2))"
-    Write-Information "  Safety Buffer: $safetyBufferMinutes minutes (OPTIMIZED for near real-time)"
-
-    # Validate execution time makes sense
-    if ($effectiveMaxMinutes -lt 1) {
-        Write-Warning "Effective execution time too short ($([Math]::Round($effectiveMaxMinutes, 2)) minutes) - may not be enough time for processing"
-    }
+    Write-Information "  Safety Buffer: $([Math]::Round($safetyBufferMinutes * 60, 0)) seconds (OPTIMIZED)"
 
     # NEW: Get storage account details for queue management using unified module
     $storageAccountName = $null
@@ -401,7 +370,7 @@ try {
         DataCollectionEndpointUrl = $env:DATA_COLLECTION_ENDPOINT_URL
         SentinelWorkspaceName = $env:SENTINEL_WORKSPACE_NAME
         ProcessingMode = "QueueManaged"
-        BlockAlignment = "10MinuteBlocks"
+        BlockAlignment = "TimerAligned"
         
         # NEW: Queue management settings
         QueueTableName = $queueTableName
@@ -425,8 +394,7 @@ try {
             CurrentTimeUtc = $currentTimeUtc.ToString('yyyy-MM-ddTHH:mm:ssZ')
             BlockEndTime = $blockEndTimeZulu
             EffectiveMaxMinutes = $effectiveMaxMinutes
-            SafetyBufferMinutes = $safetyBufferMinutes
-            TimeUntilBlockEnd = $timeUntilBlockEnd
+            SafetyBufferSeconds = [Math]::Round($safetyBufferMinutes * 60, 0)
             OptimizedForNearRealTime = $true
         }
     }
@@ -442,6 +410,7 @@ try {
     Write-Information "  - MaxExecutionTime: $($orchestrationInput.MaxExecutionTime) (OPTIMIZED)"
     Write-Information "  - QueuePollInterval: $($orchestrationInput.QueuePollInterval)"
     Write-Information "  - EffectiveMaxMinutes: $($orchestrationInput.TimeBoundarySettings.EffectiveMaxMinutes)"
+    Write-Information "  - SafetyBufferSeconds: $($orchestrationInput.TimeBoundarySettings.SafetyBufferSeconds)"
     Write-Information "  - OptimizedForNearRealTime: $($orchestrationInput.TimeBoundarySettings.OptimizedForNearRealTime)"
 
     # Start the queue-managed orchestration
@@ -473,10 +442,10 @@ try {
             queueTableName = $queueTableName
             validTablesConfirmed = $true
             optimizations = @{
-                maxExecutionMinutes = 9.5
-                safetyBufferMinutes = 0.25
+                maxExecutionMinutes = 9.92
+                safetyBufferSeconds = 5
                 optimizedForNearRealTime = $true
-                timeBoundaryFix = "Optimized for maximum processing time within 10-minute blocks"
+                timeBoundaryFix = "Simplified timer-aligned processing with 5-second safety buffer"
             }
             moduleArchitecture = "Unified-functionApp-v3.0-Optimized"
             tableDiscovery = @{
