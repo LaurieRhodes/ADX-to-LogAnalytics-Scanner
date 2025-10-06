@@ -55,21 +55,19 @@ This solution architecture combines stateful and stateless functions to provide 
 ### Components
 
 **SupervisorFunction**: 10-minute cycle supervisor managing orchestration lifecycle
-**ContinuousQueueOrchestrator**: Stateful orchestrator with 9.75-minute execution window in each 10 minute block  
+
+**ContinuousQueueOrchestrator**: Stateful orchestrator with 9.75-minute execution window in each 10 minute block
+
 **QueueManagerActivity**: Round-robin table selection and status management
+
 **ADXQueryActivity**: Individual table processing with schema validation and DCR forwarding
 
 ## Documentation
 
-|                                       | Link                                                                                                 | Description                                                                          |
-| ------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| **Architecture**:                     | [docs/Architecture.md](docs/Architecture.md)                                                         | Software Architecture overview                                                       |
-| **Deployment Guide**:                 | [docs/Guide - Deployment.md](docs/Guide - Deployment.md)                                             | Deployment guide for this project                                                    |
-| **Adding new Custom Table scanning**: | [docs/Guide - Adding New Tables.md](docs/Guide - Adding New Tables.md)                               | Documentation for adding support for custom tables with scanning and data forwarding |
-| **Adding KQL Queries**:               | [docs/Guide - Configuring KQL Pipeline Queries.md](docs/Guide - Configuring KQL Pipeline Queries.md) | Guidance on how to add KQL queries for filtering and forwarding to Sentinel          |
-|                                       |                                                                                                      |                                                                                      |
-
-
+- **Architecture**: [docs/Architecture.md](docs/Architecture.md) - Software Architecture overview
+- **Deployment Guide**: [docs/Guide - Deployment.md](docs/Guide%20-%20Deployment.md) - Deployment guide for this project 
+- **Adding New Tables**: [docs/Guide - Adding New Tables.md](docs/Guide%20-%20Adding%20New%20Tables.md) - Documentation for adding support for custom tables with scanning and data forwarding
+- **Configuring KQL Queries**: [docs/Guide - Configuring KQL Pipeline Queries.md](docs/Guide%20-%20Configuring%20KQL%20Pipeline%20Queries.md) - Guidance on how to add KQL queries for filtering and forwarding to Sentinel
 
 ## License
 
