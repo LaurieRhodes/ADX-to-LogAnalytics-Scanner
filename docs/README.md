@@ -28,8 +28,6 @@ This directory contains documentation for the ADX to Sentinel continuous data pi
 | ---------------------------------------- | ----------------------------------------- |
 | [Troubleshooting.md](Troubleshooting.md) | Common issues, diagnostics, and solutions |
 
-
-
 ---
 
 **Last Updated:** October 2025
