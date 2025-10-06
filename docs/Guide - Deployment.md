@@ -77,6 +77,7 @@ All parameter names use **PascalCase** convention:
 The following optional parameters may be configured:
 
 **QueryPackID** - Full Resource ID of a Log Analytics Query Pack:
+
 ```json
 "QueryPackID": {
   "value": "/subscriptions/{sub}/resourceGroups/{rg}/providers/Microsoft.OperationalInsights/querypacks/{querypack-name}"
@@ -84,6 +85,7 @@ The following optional parameters may be configured:
 ```
 
 **EventHubResourceID** - Full Resource ID of an Event Hub (for alternate data destination):
+
 ```json
 "EventHubResourceID": {
   "value": "/subscriptions/{sub}/resourceGroups/{rg}/providers/Microsoft.EventHub/namespaces/{namespace}/eventhubs/{eventhub-name}"
@@ -91,6 +93,7 @@ The following optional parameters may be configured:
 ```
 
 **ExistingAppServicePlanResourceId** - Full Resource ID of an existing App Service Plan:
+
 ```json
 "ExistingAppServicePlanResourceId": {
   "value": "/subscriptions/{sub}/resourceGroups/{rg}/providers/Microsoft.Web/serverfarms/{plan-name}"
@@ -176,6 +179,7 @@ The initial project is configured for testing with a single Activity Function. F
 The initial project uses a Consumption Plan for simplicity. For production:
 
 **Benefits of Dedicated App Service Plan:**
+
 - More cost-effective for continuous running Functions
 - Better performance and reliability
 - Enables VNet integration
@@ -201,14 +205,17 @@ Then redeploy the infrastructure using `./deploy.ps1` or the `az deployment` com
 Ensure the managed identity has the required permissions:
 
 **On ADX Cluster:**
+
 ```kusto
 .show database {DatabaseName} principals
 ```
 
 **On Log Analytics Workspace:**
+
 - Monitoring Metrics Publisher role (assigned automatically by deployment)
 
 **On Event Hub (if used):**
+
 - Azure Event Hubs Data Sender role (assigned automatically by deployment)
 
 ### 2. Test the Deployment
@@ -231,14 +238,17 @@ Edit `src/FunctionApp/config/queries.yaml` to define which data to forward from 
 ### Common Issues
 
 **Deployment fails with "ParentResourceNotFound":**
+
 - Verify all Resource IDs in parameters.json are correct and resources exist
 - Check Event Hub Resource ID format includes full path
 
 **Managed Identity permission errors:**
+
 - Wait 24 hours for permissions to propagate
 - Verify identity has required roles on all resources
 
 **Function App fails to start:**
+
 - Check Application Insights for errors
 - Verify storage account connection string is valid
 - Ensure all environment variables are set correctly
@@ -246,6 +256,7 @@ Edit `src/FunctionApp/config/queries.yaml` to define which data to forward from 
 ### Getting Help
 
 Check the following logs:
+
 - Application Insights → Failures
 - Function App → Log Stream
 - Storage Account → Table Storage → `tableprocessingqueue` for processing status
