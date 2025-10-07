@@ -1,6 +1,5 @@
 // Query Pack Permissions Module
-// This module handles Query Pack permissions for reading queries via REST API
-// IMPORTANT: Query Packs require Resource Group level Reader permissions for REST API access
+// Assigns Log Analytics Contributor role to allow API access to Query Pack queries
 
 targetScope = 'resourceGroup'
 
@@ -14,77 +13,36 @@ param managedIdentityPrincipalId string
 var queryPackResourceParts = split(queryPackResourceId, '/')
 var queryPackName = last(queryPackResourceParts)
 
-// Define role definition IDs
-var logAnalyticsReaderRoleId = '73c42c96-874c-492b-b04d-ab87d138a893'
-var logAnalyticsReaderRoleDefinitionResourceId = subscriptionResourceId('Microsoft.Authorization/roleDefinitions', logAnalyticsReaderRoleId)
-
-var readerRoleId = 'acdd72a7-3385-48ef-bd42-f606fba81ae7'
-var readerRoleDefinitionResourceId = subscriptionResourceId('Microsoft.Authorization/roleDefinitions', readerRoleId)
+// Log Analytics Contributor role - required for Query Pack API access
+// Reader role only allows portal access, not REST API access
+var logAnalyticsContributorRoleId = '92aaf0da-9dab-42b6-94a3-d43ce8d16293'
+var logAnalyticsContributorRoleDefinitionResourceId = subscriptionResourceId('Microsoft.Authorization/roleDefinitions', logAnalyticsContributorRoleId)
 
 // Get existing Query Pack resource
 resource queryPack 'Microsoft.OperationalInsights/queryPacks@2019-09-01' existing = {
   name: queryPackName
 }
 
-// CRITICAL: Assign Reader role at RESOURCE GROUP level
-// Query Pack REST API access requires this broader scope
-resource resourceGroupReaderRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
-  name: guid(resourceGroup().id, readerRoleDefinitionResourceId, managedIdentityPrincipalId, 'querypack-rg-reader')
-  properties: {
-    roleDefinitionId: readerRoleDefinitionResourceId
-    principalId: managedIdentityPrincipalId
-    principalType: 'ServicePrincipal'
-    description: 'Grants Reader access at Resource Group level for Query Pack REST API access'
-  }
-}
-
-// Also assign Log Analytics Reader on the Query Pack resource itself (defense in depth)
-resource queryPackReaderRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
+// Assign Log Analytics Contributor role on Query Pack resource
+// This is required for REST API access to query pack queries
+resource queryPackContributorRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
   scope: queryPack
-  name: guid(queryPack.id, logAnalyticsReaderRoleDefinitionResourceId, managedIdentityPrincipalId)
+  name: guid(queryPack.id, logAnalyticsContributorRoleDefinitionResourceId, managedIdentityPrincipalId)
   properties: {
-    roleDefinitionId: logAnalyticsReaderRoleDefinitionResourceId
+    roleDefinitionId: logAnalyticsContributorRoleDefinitionResourceId
     principalId: managedIdentityPrincipalId
     principalType: 'ServicePrincipal'
-    description: 'Grants Log Analytics Reader access to Query Pack resource'
-  }
-}
-
-// Also assign Reader role at Query Pack resource level (belt and suspenders)
-resource queryPackGeneralReaderRoleAssignment 'Microsoft.Authorization/roleAssignments@2022-04-01' = {
-  scope: queryPack
-  name: guid(queryPack.id, readerRoleDefinitionResourceId, managedIdentityPrincipalId)
-  properties: {
-    roleDefinitionId: readerRoleDefinitionResourceId
-    principalId: managedIdentityPrincipalId
-    principalType: 'ServicePrincipal'
-    description: 'Grants Reader access to Query Pack resource'
+    description: 'Grants Log Analytics Contributor access to Query Pack - required for REST API access to queries'
   }
 }
 
 // Outputs
 output queryPackId string = queryPack.id
 output queryPackName string = queryPack.name
-output resourceGroupReaderRoleAssignmentId string = resourceGroupReaderRoleAssignment.id
-output logAnalyticsReaderRoleAssignmentId string = queryPackReaderRoleAssignment.id
-output queryPackReaderRoleAssignmentId string = queryPackGeneralReaderRoleAssignment.id
-output assignedRoles array = [
-  {
-    role: 'Reader (Resource Group)'
-    roleDefinitionId: readerRoleId
-    scope: 'ResourceGroup'
-    assignmentId: resourceGroupReaderRoleAssignment.id
-  }
-  {
-    role: 'Log Analytics Reader (Query Pack)'
-    roleDefinitionId: logAnalyticsReaderRoleId
-    scope: 'QueryPack'
-    assignmentId: queryPackReaderRoleAssignment.id
-  }
-  {
-    role: 'Reader (Query Pack)'
-    roleDefinitionId: readerRoleId
-    scope: 'QueryPack'
-    assignmentId: queryPackGeneralReaderRoleAssignment.id
-  }
-]
+output contributorRoleAssignmentId string = queryPackContributorRoleAssignment.id
+output assignedRole object = {
+  role: 'Log Analytics Contributor'
+  roleDefinitionId: logAnalyticsContributorRoleId
+  scope: 'QueryPack'
+  assignmentId: queryPackContributorRoleAssignment.id
+}
