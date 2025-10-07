@@ -153,7 +153,7 @@ To change to production schedule:
 2. Redeploy the Function App code
 
 **Development (default)**: `0 0 9 * * *` - daily at 9 AM  
-**Production**: `0 */10 * * * *` - every 10 minutes
+**Production**: `0 0,10,20,30,40,50 * * * *` - every 10 minutes
 
 ### Concurrent Worker Processing
 
@@ -176,7 +176,9 @@ The initial project is configured for testing with a single Activity Function. F
 
 ### App Service Plan
 
-The initial project uses a Consumption Plan for simplicity. For production:
+The initial project uses a Consumption Plan for simplicity. For production se of an App .Service Plan is STRONGLY recommended:
+
+<img title="" src="./img/AppServicePlan.jpg" alt="" width="486" data-align="center">
 
 **Benefits of Dedicated App Service Plan:**
 
@@ -185,6 +187,8 @@ The initial project uses a Consumption Plan for simplicity. For production:
 - Enables VNet integration
 - Supports App Service Environments for enterprise network isolation
 - Predictable costs
+
+Microsoft can throttle available resources for long running Consumption Plan Functions than can end up with unpredictable and unreliable results.  For an Enterprise environment, App Service Plan use should be considered as a critical dependency for Security Alerting.
 
 **To use an existing App Service Plan:**
 
@@ -198,68 +202,7 @@ Add the `ExistingAppServicePlanResourceId` parameter to your `parameters.json`:
 
 Then redeploy the infrastructure using `./deploy.ps1` or the `az deployment` command.
 
-## Post-Deployment Verification
 
-### 1. Verify Managed Identity Permissions
-
-Ensure the managed identity has the required permissions:
-
-**On ADX Cluster:**
-
-```kusto
-.show database {DatabaseName} principals
-```
-
-**On Log Analytics Workspace:**
-
-- Monitoring Metrics Publisher role (assigned automatically by deployment)
-
-**On Event Hub (if used):**
-
-- Azure Event Hubs Data Sender role (assigned automatically by deployment)
-
-### 2. Test the Deployment
-
-Trigger the SupervisorFunction manually via HTTP:
-
-```bash
-# Get the function URL from Azure Portal or CLI
-curl -X POST https://{FunctionAppName}.azurewebsites.net/api/SupervisorFunction
-```
-
-Monitor execution in Application Insights.
-
-### 3. Configure Query Rules
-
-Edit `src/FunctionApp/config/queries.yaml` to define which data to forward from ADX to Sentinel. See [Guide - Configuring KQL Pipeline Queries.md](./Guide%20-%20Configuring%20KQL%20Pipeline%20Queries.md) for details.
-
-## Troubleshooting
-
-### Common Issues
-
-**Deployment fails with "ParentResourceNotFound":**
-
-- Verify all Resource IDs in parameters.json are correct and resources exist
-- Check Event Hub Resource ID format includes full path
-
-**Managed Identity permission errors:**
-
-- Wait 24 hours for permissions to propagate
-- Verify identity has required roles on all resources
-
-**Function App fails to start:**
-
-- Check Application Insights for errors
-- Verify storage account connection string is valid
-- Ensure all environment variables are set correctly
-
-### Getting Help
-
-Check the following logs:
-
-- Application Insights → Failures
-- Function App → Log Stream
-- Storage Account → Table Storage → `tableprocessingqueue` for processing status
 
 ---
 
