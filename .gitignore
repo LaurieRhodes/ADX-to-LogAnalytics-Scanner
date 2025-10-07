@@ -1,0 +1,62 @@
+# Azure Functions artifacts
+bin/
+obj/
+appsettings.json
+local.settings.json
+
+# Sensitive configuration files
+infrastructure/parameters.json
+*.parameters.json
+!example.parameters.json
+
+# Azure deployment artifacts
+.azure/
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Azure Functions
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+.python_packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Secrets and keys
+*.key
+*.pem
+*.pfx
+secrets/
+.env
+.env.local
