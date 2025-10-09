@@ -14,9 +14,9 @@ Although this project focusses on selective data promotion from large scale ADX 
 
 ## Why This Solution
 
-<p align="center">
+
 ![](./docs/img/ADX%20to%20Sentinel.jpg)
-</p>
+
 
 Combining Function Apps with Azure Data Explorer (ADX) is an extremely flexible and cost-effective method for achieving almost any business goal with Business Data.  Unfortunately, (at the time of writing) no examples of how this can be achieved exist. 
 
