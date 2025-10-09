@@ -1,7 +1,8 @@
 # ADX to Sentinel - Continuous Data Pipeline
-<p align="center">
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PowerShell](https://img.shields.io/badge/PowerShell-7.x-blue.svg)](https://github.com/PowerShell/PowerShell) [![Azure Functions](https://img.shields.io/badge/Azure%20Functions-v4-green.svg)](https://docs.microsoft.com/en-us/azure/azure-functions/)
-</p>
+
+
 <p align="center">
 <img title="" src="./docs/img/Data-Pipeline.jpg" alt="" width="384" data-align="center">
 </p>
