@@ -10,21 +10,31 @@ An Enterprise Grade Data Pipeline solution for enabling continuous, KQL filtered
 
 This project demonstrates the usability of an Azure Function App for reliable, continuous scanning for near real-time promotion of data using KQL queries to Log Analytics / Sentinel.  Alternately, the solution may be used for KQL forwarding of events to nominated Event Hubs.
 
-Although this project focusses on selective data promotion from large scale ADX data collection to Microsoft Sentinel, the code is adaptable for different use cases and could be altered to promote data events to Event Hubs or event use Sentinel Workspaces as case management solutions for different technology teams.  There is no reason why you couldn't have multiple workspaces dedicated for alerts and ticketing for Technology support or Network teams when all enterprise data is being streamed into a real-time ADX Data Warehouse.
+This project focusses on selective data promotion from large scale ADX data collection to Microsoft Sentinel, the concept can be used for almost endless monitoring scenarios.
 
-## Why This Solution
+- Slash Microsoft Sentinel cost by pre-filtering noisy logs
 
+- Enable near real-time Microsoft Sentinel alerting on all events including performance metrics
 
-![](./docs/img/ADX%20to%20Sentinel.jpg)
+- True, universal Data Lake centralisation of Enterprise data on Kusto with dedicated Log Analytics workspaces for different teams.  There is no reason why you couldn't repurpose Sentinel workspaces as case management systems for Technology support or Network teams!
 
-
-Combining Function Apps with Azure Data Explorer (ADX) is an extremely flexible and cost-effective method for achieving almost any business goal with Business Data.  Unfortunately, (at the time of writing) no examples of how this can be achieved exist. 
+- Use KQL for forwarding events to Event Hubs for triggering SOAR and automation activities
 
 From a Security perspective, real-time alerting against Petabyte data sets is a critical business requirement. This example project shows how this is achieved.
 
+## Why This Solution
+
+![](./docs/img/ADX%20to%20Sentinel.jpg)
+
+Combining Function Apps with Azure Data Explorer (ADX) provides an extremely flexible and cost-effective method for achieving almost any business goal with Business Data.  
+
 KQL as a modern query language is well suited for any form of data pipeline and can be easily integrated with Function Apps.  Real-time scanning of incoming data allows for enormous capability with orchestration from data events.
 
+
+
 ![](./docs/img/Queries-YAML.jpg)
+
+
 
 This Function App uses a YAML configuration file to forward data that matches queries of a specific type to a targetted table in Log Analytics / Sentinel.  This allows for any large-volume logging to be receive real-time security alerting with Sentinel's Analytics Logs using the same KQL queries Security Operations are familiar with.
 
@@ -36,9 +46,9 @@ This Function App uses a YAML configuration file to forward data that matches qu
 
 As an alternate destination, for data queried from Azure Data Explorer, positively matched records may be sent to a dedicated Event Hub.  This alternate data pipeline mechanism allows for:
 
-* developing solutions with Event Hub Triggered Response Automation using Event Hubs
+* Developing solutions with Event Hub Triggered Response Automation using Event Hubs
 
-* broader integration with Microsoft Fabric past the Workspace Shortcut method for data access.  
+* Broader integration with Microsoft Fabric past the Workspace Shortcut method for data access.  
 
 ## Enterprise Value
 
@@ -104,6 +114,7 @@ This solution architecture combines stateful and stateless functions to provide 
 
 - [Infrastructure Parameters Reference](infrastructure/Parameters_Reference.md) - Detailed Bicep parameter documentation
 - [Query Configuration](src/FunctionApp/config/README.md) - YAML query configuration guide
+- https://laurierhodes.info/ - Additional projects and posts related to using Azure Data Explorer / Kusto as a Security Analytics platform
 
 ## License
 
