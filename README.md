@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PowerShell](https://img.shields.io/badge/PowerShell-7.x-blue.svg)](https://github.com/PowerShell/PowerShell) [![Azure Functions](https://img.shields.io/badge/Azure%20Functions-v4-green.svg)](https://docs.microsoft.com/en-us/azure/azure-functions/)
 
-<img title="" src="./docs/img/Data-Pipeline.jpg" alt="" width="384" align="center">
+<p align="center">
+<img title="" src="./docs/img/Data-Pipeline.jpg" alt="" width="384" data-align="center">
+</p>
 
 An Enterprise Grade Data Pipeline solution for enabling continuous, KQL filtered data forwarding from Azure Data Explorer (ADX) to Microsoft Sentinel via Data Collection Rules (DCR).  
 
@@ -12,7 +14,9 @@ Although this project focusses on selective data promotion from large scale ADX 
 
 ## Why This Solution
 
+<p align="center">
 ![](./docs/img/ADX%20to%20Sentinel.jpg)
+</p>
 
 Combining Function Apps with Azure Data Explorer (ADX) is an extremely flexible and cost-effective method for achieving almost any business goal with Business Data.  Unfortunately, (at the time of writing) no examples of how this can be achieved exist. 
 
@@ -26,7 +30,9 @@ This Function App uses a YAML configuration file to forward data that matches qu
 
 #### Optional Alternate Data Destination (Event Hub)
 
+<p align="center">
 <img title="" src="./docs/img/Event-Hub-Export.jpg" alt="" width="649" data-align="center">
+</p>
 
 As an alternate destination, for data queried from Azure Data Explorer, positively matched records may be sent to a dedicated Event Hub.  This alternate data pipeline mechanism allows for:
 
