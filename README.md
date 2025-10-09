@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PowerShell](https://img.shields.io/badge/PowerShell-7.x-blue.svg)](https://github.com/PowerShell/PowerShell) [![Azure Functions](https://img.shields.io/badge/Azure%20Functions-v4-green.svg)](https://docs.microsoft.com/en-us/azure/azure-functions/)
 
-<img title="" src="./docs/img/Data-Pipeline.jpg" alt="" width="384" data-align="center">
+<img title="" src="./docs/img/Data-Pipeline.jpg" alt="" width="384" align="center">
 
 An Enterprise Grade Data Pipeline solution for enabling continuous, KQL filtered data forwarding from Azure Data Explorer (ADX) to Microsoft Sentinel via Data Collection Rules (DCR).  
 
